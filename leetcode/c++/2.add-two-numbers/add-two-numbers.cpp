@@ -20,7 +20,7 @@ public:
         int carry=0;
         
         ListNode* current= new ListNode(0);
-        ListNode * ans= current;
+        ListNode *ans= current;
         while(l1!=nullptr || l2!=nullptr || carry!=0){
             
             if(l1!=nullptr){
