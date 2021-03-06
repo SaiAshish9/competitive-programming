@@ -8,7 +8,6 @@ unordered_map<char,int> pos;
 
 int start,st=0,current,max=0;
 
-pos[str[0]]=0;
 
 // start represent's current location where new substring is to be inspected.
 
@@ -18,7 +17,7 @@ pos[str[0]]=0;
 
 int i;
 
-for(i=1;i<str.length();i++){
+for(i=0;i<str.length();i++){
    if(pos.find(str[i]) == pos.end()){
       pos[str[i]]=i;
       // if it's not existing
