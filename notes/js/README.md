@@ -57,3 +57,19 @@ const cannot be updated or re-declared
 
 Just like let, const declarations are hoisted to the top but are not initialized.
 ```
+
+## Count Duplicates in a array
+
+```
+uniqueCount = ["a","b","c","d","d","e","a","b","c","f","g","h","h","h","e","a"];
+var count = {};
+uniqueCount.forEach(function(i) { count[i] = (count[i]||0) + 1;});
+console.log(count);
+
+var arr = ['a','b','c','d','d','e','a','b','c','f','g','h','h','h','e','a'];
+var map = arr.reduce(function(prev, cur) {
+  prev[cur] = (prev[cur] || 0) + 1;
+  return prev;
+}, {});
+document.write(JSON.stringify(map));
+```
