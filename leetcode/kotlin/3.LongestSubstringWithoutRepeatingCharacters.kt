@@ -26,7 +26,7 @@ fun convert(str: String): String {
         max=i-st;
         start=st;
     }
-    return str.substring(start,max)
+    return str.substring(start,start+max)
 }
 
 fun main(){

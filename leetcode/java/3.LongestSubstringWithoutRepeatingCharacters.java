@@ -25,7 +25,7 @@ if (max < i - st) {
   max = i - st;
   start = st;
 }
-return str.substring(start,max);
+return str.substring(start,start+max);
   }
 
   public static void main(String[] args) {

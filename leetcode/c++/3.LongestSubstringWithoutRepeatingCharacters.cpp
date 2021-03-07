@@ -37,7 +37,7 @@ if (max < i - st) {
   max = i - st;
   start = st;
 }
-return str.substr(start,max);
+return str.substr(start,start+max);
 }
 
 int main() {
