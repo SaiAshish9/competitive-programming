@@ -1,5 +1,5 @@
 function convert(str) {
-  var count = 0,
+  var current = 0,
     st = 0,
     max = 0,
     start = 0;
