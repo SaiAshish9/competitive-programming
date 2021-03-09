@@ -1,6 +1,4 @@
-package com.javaprogramming;
-
-import java.lang.*;
+// import java.lang.*;
 
 class Node{
     int data;
