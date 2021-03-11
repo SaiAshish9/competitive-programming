@@ -22,7 +22,7 @@ string convert(string s,int numRows){
     rows.push_back(s);
   }
 
-  for(int i=0;i<numRows;i++){
+  for(int i=0;i<s.length();i++){
     rows[currentRow].push_back(s[i]);
 
     if(!reverse){
@@ -37,11 +37,8 @@ string convert(string s,int numRows){
   }
   
   for(auto i:rows){
-    for(auto j:i){
-      cout << j <<endl;
-    }
    result+= accumulate(
-    i.begin(),i.end(),""
+    i.begin(),i.end(),string("")
   );
   }
 
