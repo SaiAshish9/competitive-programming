@@ -35,7 +35,7 @@ class ATOI {
     }
 
     public static void main(String... s) {
-        System.out.println(Main.atoi("42"));
+        System.out.println(ATOI.atoi("42"));
     }
 
 }
