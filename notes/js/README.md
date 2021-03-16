@@ -73,3 +73,8 @@ var map = arr.reduce(function(prev, cur) {
 }, {});
 document.write(JSON.stringify(map));
 ```
+
+```
+[...Array(10).keys()]
+Array.from({ length: s.length + 1 }, () => [false]);
+```
