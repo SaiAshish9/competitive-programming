@@ -16,3 +16,9 @@ C.callNonStatic(); // error: not a static method
 C.Companion.callStatic(); // instance method remains
 C.Companion.callNonStatic(); 
 ```
+
+## class vs object keyword
+
+```
+Whereas a class describes structures that can be instantiated as and when desired and allows for as many instances as needed, an object instead represents a single static instance, and can never have any more or any less than this one instance.
+```
