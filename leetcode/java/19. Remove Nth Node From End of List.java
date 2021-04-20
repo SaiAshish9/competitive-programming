@@ -47,10 +47,7 @@ class Main {
       System.out.print("\n");
     }
 
-   
-
     public static void main(String ...s){
-
       int arr[] = {1,2,3,4,5};
       List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
       ListNode temp = new ListNode();
