@@ -14,7 +14,6 @@ class Main:
     if start == len(digits):
       result.append(prefix)
       return
-
     cand = keyboard[digits[start]]
     for e in cand:
       self.comp(digits,prefix+e,start+1,keyboard,result)
