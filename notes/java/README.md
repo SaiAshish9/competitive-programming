@@ -58,3 +58,29 @@ ArrayList	LinkedList
 ```
 			List<String> filteredUsers = blocks.stream().filter(x->!x.equals(sb.toString())).collect(Collectors.toList());
 ```
+
+## System.out.println
+
+```
+PrintStream out = System.out;
+out.println( "hello" );
+```
+
+```
+import static java.lang.System.out; 
+or
+import static java.lang.System.*;
+```
+
+## Implicit Vs explicit import
+
+```
+implicit pack.*
+explicit pack.A
+```
+
+## Static import
+
+```
+The static import feature of Java 5 facilitate the java programmer to access any static member of a class directly. There is no need to qualify it by the class name.
+```
