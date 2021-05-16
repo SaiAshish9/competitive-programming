@@ -84,3 +84,8 @@ explicit pack.A
 ```
 The static import feature of Java 5 facilitate the java programmer to access any static member of a class directly. There is no need to qualify it by the class name.
 ```
+
+```
+boolean[] x = new boolean[6];
+Arrays.fill(x,false)
+```

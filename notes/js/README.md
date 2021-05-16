@@ -78,3 +78,14 @@ document.write(JSON.stringify(map));
 [...Array(10).keys()]
 Array.from({ length: s.length + 1 }, () => [false]);
 ```
+
+
+```
+var x=[1,2]
+for(let i of x){
+  console.log(i) -> 1,2
+}
+for(let i in x){
+  console.log(i) -> 0,1
+}
+```
