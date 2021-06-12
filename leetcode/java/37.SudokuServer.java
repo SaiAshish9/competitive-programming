@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Arrays;
 
-public class Main{
+class Main{
 
     static PrintStream ps = System.out;
 
