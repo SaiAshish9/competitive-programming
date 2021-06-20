@@ -1,6 +1,6 @@
 # const vs var vs let
 
-# var 
+# var
 
 ```
 var is function scoped when it is declared within a function. This means that it is available and can be accessed only within that function.
@@ -28,7 +28,7 @@ Probleam
 var greeter = "hey hi";
 var times = 4;
 if (times > 3) {
-    var greeter = "say Hello instead"; 
+    var greeter = "say Hello instead";
 }
 
 console.log(greeter) // "say Hello instead"
@@ -79,7 +79,6 @@ document.write(JSON.stringify(map));
 Array.from({ length: s.length + 1 }, () => [false]);
 ```
 
-
 ```
 var x=[1,2]
 for(let i of x){
@@ -88,4 +87,10 @@ for(let i of x){
 for(let i in x){
   console.log(i) -> 0,1
 }
+```
+
+## last element of array
+
+```
+arr.slice(-1).pop()
 ```
