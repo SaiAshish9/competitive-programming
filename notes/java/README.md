@@ -99,3 +99,8 @@ List<List<String> list = Arrays.stream(dataSet)
                        //  .flatMap(Arrays::stream)
                         .collect(Collectors.toList());
 ```
+
+```
+List<List<String>> anagrams = new ArrayList<List<String>>();
+// NOTE: we can't do List<List<String>> anagrams = new ArrayList<ArrayList<String>>();
+```
