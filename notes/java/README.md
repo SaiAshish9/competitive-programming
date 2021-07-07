@@ -67,7 +67,7 @@ out.println( "hello" );
 ```
 
 ```
-import static java.lang.System.out; 
+import static java.lang.System.out;
 or
 import static java.lang.System.*;
 ```
@@ -88,4 +88,14 @@ The static import feature of Java 5 facilitate the java programmer to access any
 ```
 boolean[] x = new boolean[6];
 Arrays.fill(x,false)
+```
+
+## Conversion of 2 dmensional string array to list of lists
+
+```
+String[][] dataSet= new String[][]{{},{}};
+List<List<String> list = Arrays.stream(dataSet)
+                        .map(Arrays::asList)
+                       //  .flatMap(Arrays::stream)
+                        .collect(Collectors.toList());
 ```
