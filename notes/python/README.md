@@ -34,3 +34,10 @@ int      2.0
 float    2.5
 Name: 0, dtype: float64
 ```
+
+# math.floor and math.ceil alternative
+
+```
+3//2 -> 1
+-(-3//2) -> 2
+```

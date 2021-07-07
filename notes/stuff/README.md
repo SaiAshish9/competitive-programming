@@ -73,3 +73,27 @@ https://www.youtube.com/watch?v=uijgmwOdcXQ
 ```
 https://github.com/marketplace/actions/github-action-for-digitalocean-doctl
 ```
+
+# WebRtc Vs AppRtc Vs WebSockets Vs gPRC
+
+```
+
+```
+
+CPU Vs GPU
+
+```
+
+```
+
+# MVP Vs MVC Vs MVVM
+
+```
+
+```
+
+# Native Vs Hybrid Vs Cross Platform
+
+```
+
+```
