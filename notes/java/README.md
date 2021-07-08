@@ -104,3 +104,18 @@ List<List<String> list = Arrays.stream(dataSet)
 List<List<String>> anagrams = new ArrayList<List<String>>();
 // NOTE: we can't do List<List<String>> anagrams = new ArrayList<ArrayList<String>>();
 ```
+
+
+```
+String.valueOf(2.00000)
+Double.toString(2.00000)
+2.0
+```
+
+# Conversion of decimal to string
+
+```
+String txt= String.valueOf(2.0000)
+<!-- Double.toString() -->
+int count = txt.length() - 1 - txt.indexOf('.');
+```
