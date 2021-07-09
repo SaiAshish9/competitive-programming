@@ -26,3 +26,15 @@ for (char c: input) {
 string s{"sai"};
 vector<char> c(s.begin(),s.end())
 ```
+
+# Sort int array
+
+```
+#include <bits/stdc++.h>
+
+int arr[]={7,3,9};
+int n = sizeof(arr) / sizeof(arr[0]);
+sort(arr,arr+n);
+sort(arr,arr+n,greater<int>());
+
+```
