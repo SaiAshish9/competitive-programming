@@ -3,7 +3,7 @@ Greedy Approach ->
 
 1. Sort the activities according to their finishing time
 
-2. Select the first activity from the sorted arrayand print it
+2. Select the first activity from the sorted array and print it
 
 3. Do following for remaining activities in the sorted array.
 

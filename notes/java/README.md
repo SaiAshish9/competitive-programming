@@ -119,3 +119,29 @@ String txt= String.valueOf(2.0000)
 <!-- Double.toString() -->
 int count = txt.length() - 1 - txt.indexOf('.');
 ```
+
+# Priority Queue
+
+```
+
+class HuffmanNode {
+ 
+    int data;
+    char c;
+ 
+    HuffmanNode left;
+    HuffmanNode right;
+}
+ 
+
+class MyComparator implements Comparator<HuffmanNode> {
+    public int compare(HuffmanNode x, HuffmanNode y)
+    {
+ 
+        return x.data - y.data;
+    }
+}
+
+ PriorityQueue<HuffmanNode> q
+            = new PriorityQueue<HuffmanNode>(n, new MyComparator());
+```

@@ -38,3 +38,18 @@ sort(arr,arr+n);
 sort(arr,arr+n,greater<int>());
 
 ```
+
+# Priority Queue
+
+```
+struct compare {
+ 
+    bool operator()(MinHeapNode* l, MinHeapNode* r)
+ 
+    {
+        return (l->freq > r->freq);
+    }
+};
+
+priority_queue<MinHeapNode*, vector<MinHeapNode*>, compare> minHeap;
+```
