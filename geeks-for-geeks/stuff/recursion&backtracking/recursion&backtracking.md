@@ -40,7 +40,14 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 There are three types of problems in backtracking –  
 
 Decision Problem – In this, we search for a feasible solution.
+
+N Queens
+
 Optimization Problem – In this, we search for the best solution.
+
+mainly in graphs
+
+(Permutations)
 Enumeration Problem – In this, we find all feasible solutions.
 
 By being greedy, the algorithm matches the longest possible part. Backtracking algorithms, upon failure, keep exploring other possibilities. Such algorithms begin afresh from where they had originally started, hence they backtrack (go back to the starting point).
@@ -60,4 +67,10 @@ Knight Tour
 
 ```
 simply check whether a problem can be solved piece by piece or not. And check whether it can be elimnated or not once solved
+
+exponential or factorial complexity
+
+constraints
+
+No guarantee of which next step will obtain the soln
 ```
