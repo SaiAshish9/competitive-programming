@@ -32,7 +32,7 @@ making locally optimum greedy choices don't always give us the global optimum.
 ```
 Problems on greedy approach work has two properties:
 
-1. Greedy - choice property -> A global optimum can be arrived by selecting local optimum
+1. Greedy choice property -> A global optimum can be arrived by selecting local optimum
 
 2. Optimal Substructure ->  An optimal solution to the problem contains optimal solution to subproblems
 ```
