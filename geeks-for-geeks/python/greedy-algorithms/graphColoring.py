@@ -5,7 +5,7 @@ def addEdge(adj, v, w):
 	adj[w].append(v)
 	return adj
 
-def greedyColoring(adj, V):
+def graphColoring(adj, V):
 	
 	result = [-1] * V
 
@@ -45,7 +45,7 @@ if __name__ == '__main__':
 	g1 = addEdge(g1, 2, 3)
 	g1 = addEdge(g1, 3, 4)
 	print("Coloring of graph 1 ")
-	greedyColoring(g1, 5)
+	graphColoring(g1, 5)
 
 	g2 = [[] for i in range(5)]
 	g2 = addEdge(g2, 0, 1)
@@ -55,4 +55,4 @@ if __name__ == '__main__':
 	g2 = addEdge(g2, 2, 4)
 	g2 = addEdge(g2, 4, 3)
 	print("\nColoring of graph 2")
-	greedyColoring(g2, 5)
+	graphColoring(g2, 5)

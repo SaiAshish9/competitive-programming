@@ -36,5 +36,3 @@ class GFG
 		findMin(n);
 	}
 }
-
-// This code is contributed by 29AjayKumar
