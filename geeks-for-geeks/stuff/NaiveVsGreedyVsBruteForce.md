@@ -1,7 +1,7 @@
 ```
 Naive algorithm
 An algorithm built by naive method (ie naive algorithm) is intended to provide a basic result to a problem. The naive algorithm makes no preparatory calculation and uses only the basic data of the problem.
-Take for example a problem of the knappack. The naive algorithm would be to first take objects of the smallest size until no longer able to put a new object in the bag.
+Take for example a problem of the knapsack. The naive algorithm would be to first take objects of the smallest size until no longer able to put a new object in the bag.
 
 For i from 1 to n
     if w [i] + w_conso ≤ W then
