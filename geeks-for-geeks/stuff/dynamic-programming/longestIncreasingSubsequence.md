@@ -25,7 +25,7 @@ LIS = 5
 For i=0:
 
 iterator j i   
-arr[]    10   22  9  33  21 + 50  41  60
+arr[]    10   22  9  33  21   50  41  60
 LIS      1    1   1   1   1   1   1   1
 
 For i=1:
