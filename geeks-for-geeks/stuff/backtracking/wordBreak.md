@@ -25,7 +25,7 @@ import java.util.*;
 
 class GFG {
 
-`static void wordBreak(int n, List<String> dict, String s)
+static void wordBreak(int n, List<String> dict, String s)
 {
 	String ans="";
 	wordBreakUtil(n, s, dict, ans);
