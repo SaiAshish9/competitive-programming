@@ -1,9 +1,4 @@
 ```
-Algorithms are the methodical sequence of steps which are defined to solve complex problems.
-
-In this article, we will see the difference between two such algorithms which are backtracking and branch and bound technique.
-
-Before getting into the differences, lets first understand each of these algorithms.
 
 Backtracking: Backtracking is a general algorithm for finding all the solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds possible candidates to the solutions and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to finally become a valid solution. It is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree).
 
