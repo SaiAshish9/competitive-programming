@@ -104,5 +104,11 @@ class KMP_String_Matching {
 ```
 
 ```
+j             i   
+a b c d a b c a
+0 0 0 0 1 2 3 1
+```
+
+```
 https://www.youtube.com/watch?v=GTJr8OvyEVQ
 ```
