@@ -1,0 +1,6 @@
+Logic
+Java Solution
+Kotlin Solution
+Javascript Solution
+Python Solution
+C++ Solution
