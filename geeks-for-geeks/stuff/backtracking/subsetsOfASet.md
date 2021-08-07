@@ -41,7 +41,7 @@ void subsetsUtil(vector<int>& A, vector<vector<int> >& res,
 
 		subsetsUtil(A, res, subset, i + 1);
 
-		subset.pop_back();
+		subset.pop_back(); // backtracking
 
                1
            1  1,2  3,1
