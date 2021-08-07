@@ -17,14 +17,12 @@ if(i==n)
 
 # Duplicates
 
+```
 {1,2,2}
 
-```
 set<vector> s;
 s.insert(s)
-```
 
-```
 we simply need to push the element to each member of existing array
 ```
 
