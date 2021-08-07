@@ -2,13 +2,13 @@ Leetcode Problem Set Q13 :
 
 Problem Statement: 
 
-Logic
 Java Solution
 Kotlin Solution
 Javascript Solution
 Python Solution
 C++ Solution
 
+Logic
 Java Solution
 Kotlin Solution
 Javascript Solution
