@@ -4,3 +4,9 @@ Kotlin Solution
 Javascript Solution
 Python Solution
 C++ Solution
+
+Java Solution
+Kotlin Solution
+Javascript Solution
+Python Solution
+C++ Solution
