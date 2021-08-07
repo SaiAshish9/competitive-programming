@@ -35,7 +35,7 @@ the output matrix contains unique numbers.
 # Source Code
 
 ```
-class GFG
+class Sudoku
 {
 	public static boolean isSafe(int[][] board,
 								int row, int col,
