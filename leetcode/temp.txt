@@ -1,4 +1,4 @@
-Leetcode Problem Set Q23 :
+Leetcode Problem Set Q30 :
 
 Problem Statement: 
 
