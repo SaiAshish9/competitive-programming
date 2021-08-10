@@ -145,3 +145,15 @@ class MyComparator implements Comparator<HuffmanNode> {
  PriorityQueue<HuffmanNode> q
             = new PriorityQueue<HuffmanNode>(n, new MyComparator());
 ```
+
+```
+int[] data = {1,2,3,4,5,6,7,8,9,10};
+
+// To boxed array
+Integer[] what = Arrays.stream( data ).boxed().toArray( Integer[]::new );
+Integer[] ever = IntStream.of( data ).boxed().toArray( Integer[]::new );
+
+// To boxed list
+List<Integer> you  = Arrays.stream( data ).boxed().collect( Collectors.toList() );
+List<Integer> like = IntStream.of( data ).boxed().collect( Collectors.toList() )
+```
