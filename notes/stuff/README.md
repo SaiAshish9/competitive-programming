@@ -15,7 +15,7 @@ Ranking : 23916
 ## Continuous Integration Vs Continuous Deployment Vs Continuous Delivery
 
 
-Continous Deployment
+Continous Integration
 
 ```
 
