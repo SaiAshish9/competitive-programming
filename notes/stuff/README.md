@@ -77,18 +77,11 @@ https://github.com/marketplace/actions/github-action-for-digitalocean-doctl
 # Database transaction models: ACID VS BASE
 
 ```
-The CAP theorem states that it is impossible to achieve both consistency and availability in a partition tolerant distributed system (i.e., a system which continues to work in cases of temporary communication breakdowns).
+The CAP theorem states that it is impossible to achieve both consistency (ACID) and availability (BASE) in a partition tolerant distributed system (i.e., a system which continues to work in cases of temporary communication breakdowns).
 
-The fundamental difference between ACID and BASE database models is the way they deal with this limitation.
-
-The ACID model provides a consistent system.
-The BASE model provides high availability.
-To provide further insight, we will discuss each of the models separately and then compare them.
 
 ACID Model
 The ACID database transaction model ensures that a performed transaction is always consistent. This makes it a good fit for businesses which deal with online transaction processing (e.g., finance institutions) or online analytical processing (e.g., data warehousing). These organizations need database systems which can handle many small simultaneous transactions. There must be zero tolerance for invalid states.
-
-To explain the ACID model, it is best to start by breaking apart the acronym in its name.
 
 ACID acronym standing for Atomic, Consistent, Isolated, Durable
 ACID stands for:
@@ -100,14 +93,8 @@ Durable – The data related to the completed transaction will persist even in t
 ACID Use Case Example
 Financial institutions will almost exclusively use ACID databases. Money transfers depend on the atomic nature of ACID.
 
-An interrupted transaction which is not immediately removed from the database can cause a lot of issues. Money could be debited from one account and, due to an error, never credited to another.
-
 Which Databases are ACID compliant?
 One safe way to make sure your database is ACID compliant is to choose a relational database management system. These include MySQL, PostgreSQL, Oracle, SQLite, and Microsoft SQL Server.
-
-Some NoSQL DBMSs, such as Apache’s CouchDB or IBM’s Db2, also possess a certain degree of ACID compliance. However, the philosophy behind the NoSQL approach to database management goes against the strict ACID rules. Hence, NoSQL databases are not the recommended choice for those who need strict environments.
-
-Note: To better understand relational database models and NoSQL databases, read our article SQL vs NoSQL: The Main Differences.
 
 The BASE Model
 The rise of NoSQL databases provided a flexible and fluid way to manipulate data. As a result, a new database model was designed, reflecting these properties.
@@ -120,6 +107,7 @@ BASE stands for:
 Basically Available – Rather than enforcing immediate consistency, BASE-modelled NoSQL databases will ensure availability of data by spreading and replicating it across the nodes of the database cluster.
 Soft State – Due to the lack of immediate consistency, data values may change over time. The BASE model breaks off with the concept of a database which enforces its own consistency, delegating that responsibility to developers.
 Eventually Consistent – The fact that BASE does not enforce immediate consistency does not mean that it never achieves it. However, until it does, data reads are still possible (even though they might not reflect the reality).
+
 BASE Use Case Example
 Marketing and customer service companies who deal with sentiment analysis will prefer the elasticity of BASE when conducting their social network research. Social network feeds are not well structured but contain huge amounts of data which a BASE-modeled database can easily store.
 
