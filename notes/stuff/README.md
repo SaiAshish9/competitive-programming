@@ -74,13 +74,9 @@ https://www.youtube.com/watch?v=uijgmwOdcXQ
 https://github.com/marketplace/actions/github-action-for-digitalocean-doctl
 ```
 
-# ACID VS BASE
+# Database transaction models: ACID VS BASE
 
 ```
-the two most popular database transaction models: ACID and BASE.
-
-ACID vs. BASE: Comparison of Database Transaction Models
-ACID vs. BASE: What are the differences?
 The CAP theorem states that it is impossible to achieve both consistency and availability in a partition tolerant distributed system (i.e., a system which continues to work in cases of temporary communication breakdowns).
 
 The fundamental difference between ACID and BASE database models is the way they deal with this limitation.
