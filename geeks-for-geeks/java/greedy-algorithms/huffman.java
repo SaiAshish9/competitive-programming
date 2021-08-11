@@ -21,7 +21,7 @@ class MyComparator implements Comparator<HuffmanNode> {
     }
 }
  
-public class Huffman {
+class Huffman {
  
     public static void printCode(HuffmanNode root, String s)
     {
