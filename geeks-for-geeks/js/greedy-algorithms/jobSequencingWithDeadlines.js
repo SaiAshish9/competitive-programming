@@ -21,7 +21,7 @@ function printJobScheduling(arr, t){
     }
     
     for(let i= 0;i<arr.length;i++){
-        for(let j = (t - 1, arr[i][1] - 1);j>=0;j--){
+        for(let j = Math.min(t - 1, arr[i][1] - 1);j>=0;j--){
             if(result[j] == false){
                 result[j] = true;
                 job[j] = arr[i][0];
