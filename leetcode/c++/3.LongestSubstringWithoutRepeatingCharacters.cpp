@@ -42,6 +42,6 @@ return str.substr(start,start+max);
 
 int main() {
   string str="abcdbabsbd";
-  cout<< "Answer :" << endl << longest(str)<<endl;
+  cout<< longest(str)<<endl;
   return 0;
 }

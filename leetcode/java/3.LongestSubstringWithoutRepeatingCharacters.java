@@ -30,7 +30,7 @@ return str.substring(start,start+max);
 
   public static void main(String[] args) {
     String x ="abcderffaccfcvccf";
-    System.out.println("Answer:\n"+convert(x));
+    System.out.println(convert(x));
   }
 
 }
